@@ -1,0 +1,51 @@
+/* Основной стиль */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* Фон */
+.background {
+    position: relative;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover; /* Укажите путь к изображению */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Контейнер */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background: #d5b3f6; /* Светлый фиолетовый */
+    color: white;
+}
+
+td {
+    background: #eef2ff;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
