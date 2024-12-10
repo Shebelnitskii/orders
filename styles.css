@@ -10,7 +10,7 @@ body, html {
 .background {
     position: relative;
     height: 100vh;
-    background: url('background.jpg') no-repeat center center/cover; /* Укажите путь к изображению */
+    background: url('183976.jpg') no-repeat center center/cover; /* Укажите путь к изображению */
     display: flex;
     justify-content: center;
     align-items: center;
